@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title></title>
+    <meta charset='utf-8'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+  
+  <nav>
+        <ul>
+            <li><a href="BookSystem.html">Home Page</a></li></li>
+            <li><a href="createBook.html">Add Book</a></li>
+            <li><a href="deleteform.html">Delete Book</a></li>
+            <li><a href="updateForm.html">Update Book</a></li>
+            <li><a href="chooseBook.html">View Book</a></li>
+            <li><a href="purchaseForm.html">Purchase Book</a></li>
+        </ul>
+  </nav>
+  
+
+        <h1>ADD A BOOK</h1>
+        
+    <h3>
+        
+     <form action="add.php" method="post"> 
+
+       	Title: <input class="txtBox" type="text" name="bName" placeholder="Book name here"><br><br>
+       	Author: <input class="txtBox" type="text" name="bAuthor" placeholder="Author name here"><br><br>
+       	Number of Pages: <input class="txtBox" type="text" name="bPages" placeholder="Page amount here"><br><br>
+       	Book Description: <input class="txtBox" type="text" name="bDesc" placeholder="Brief description here"><br><br>
+       	Stock Amount: <input class="txtBox" type="text" name="bStock" placeholder="Enter Stock amount"><br><br>
+        <input class="txtBox" type="submit" name="submitdetails" value="SUBMIT" >
+     </form>
+     
+    </h3>
+
+  </body>
+</html>
